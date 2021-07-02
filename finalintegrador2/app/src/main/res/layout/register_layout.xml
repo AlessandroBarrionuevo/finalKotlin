@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblMainRegistrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cree usuario y contrasena" />
+
+        <EditText
+            android:id="@+id/eMainRegistrerUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Crear Usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegistrerContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Crear contrasena"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegisterNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegisterApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Apellido"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegisterGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sexo"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/eMainRegisterFechaDeNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Fecha de Nacimiento"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegisterDni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Dni"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eMainRegisterPatologia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Patologia"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

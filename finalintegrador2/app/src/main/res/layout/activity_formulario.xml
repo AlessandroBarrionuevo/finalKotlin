@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formularioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="222dp">
+
+        <TextView
+            android:id="@+id/formLblMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete el formulario diario" />
+
+        <TextView
+            android:id="@+id/formLblTipoComida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de comida" />
+
+        <Spinner
+            android:id="@+id/formSpinnerTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/eFormComidaPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese comida principal"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eFormComidaSecundaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Comida Secundaria"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eFormBebida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Bebida"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/formLblIngirioPOstre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingirio postre?" />
+
+        <EditText
+            android:id="@+id/eFormIngirioPostre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="true"
+            android:hint="Solo si ingirio postre"
+            android:inputType="textPersonName" />
+
+        <CheckBox
+            android:id="@+id/formCBTentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Tenia tentación de ingerir otro alimento?" />
+
+        <EditText
+            android:id="@+id/eFormAlimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Alimento que queria ingerir solo si tenia tentacion"
+            android:inputType="textPersonName" />
+
+        <CheckBox
+            android:id="@+id/formCBHambre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Se quedo con hambre?" />
+
+        <Button
+            android:id="@+id/formBtnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btnVer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ver" />
+
+        <TextView
+            android:id="@+id/pruebas"
+            android:layout_width="match_parent"
+            android:layout_height="273dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
